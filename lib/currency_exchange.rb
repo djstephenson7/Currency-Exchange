@@ -13,4 +13,8 @@ module CurrencyExchange
     data_hash = JSON.parse(file)
     p data_hash
   end
+
+  def hello
+    'Hello'
+  end
 end
