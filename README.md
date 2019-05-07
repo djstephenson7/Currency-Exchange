@@ -97,7 +97,9 @@ One major change I made to the existing template, was to change the existing tes
 
 There are currently no instance methods and it states in the instructions that the method definition should not be changed, so I stuck with using a Module, as opposed to using a Class.
 
-I didn't really understand what they were asking for when the requirements said they wanted the 'cost of switching from the included feed to another foreign exchange rate provider to be low', so I've tried to get in contact with Katie to find out more.
+The commands that load the JSON file can be altered to whatever the situation requires, like scraping web data from an API, for example.
+
+Presently, all the error handling logic is in the self.rate method, which if I had more time, I'd definitely look at refactoring.
 
 ## Author
 
